@@ -9,7 +9,7 @@ class FaceEngine:
     def __init__(self):
 
         self.app = FaceAnalysis(
-            name="buffalo_l",
+            name="buffalo_sc",
             providers=[
                 "CPUExecutionProvider"
             ]
