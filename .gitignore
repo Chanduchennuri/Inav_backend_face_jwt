@@ -1,0 +1,50 @@
+# Virtual environments
+venv/
+.venv/
+env/
+face_env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Uploaded files and generated data
+uploads/
+media/
+face_data/
+data/
+
+# Large model files
+*.h5
+*.pkl
+*.pickle
+*.onnx
+*.pt
+*.pth
